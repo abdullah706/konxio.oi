@@ -2,11 +2,13 @@
 <html>
 <head>
     <meta charset="utf8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Cui'zine : le mag cuisin</title>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Oswald:wght@200;400display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="./css/all.min.css"/>
      <link rel="stylesheet" href="./css/bootstrap.min.css"/>
      <link rel="stylesheet" href="./css/homepage.css"/>
      <link rel="stylesheet" href="./css/main.css"/>
-     <link rel="stylesheet" href="./css/all.min.css"/>
 </head>
 
 <body>
@@ -17,7 +19,7 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
+              <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
                   <a class="nav-link" href="#">Accueil  <span class="sr-only">(current)</span></a>
                 </li>
@@ -39,50 +41,104 @@
             <h2>Le mag cuisne</h2>
 
           </div>
+          <div class="header-filter"></div>
           
     </header>
     <main>
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
                     <h3> Derniers articles</h3>
                 </div>
-            </div>
-            <div class="row article">
-                <div class="col-12">
-                    <img src="img/articles/suzette/suzette-small.jpg"/>
+            
+            <div class="col-12 col-lg-8 content">
+                <div class="row article">
+                    <div class="col-12 col-md-4">
+                        <img class="img-fluid" src="img/articles/suzette/suzette-small.jpg"/>
+                    </div>
+                    <div class ="col-12 col-md_8">
+                        <h2> Chez suzette, la nouvelle crêperie qui fait parler d'elle</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis nihil inventore, corporis hic deserunt fugiat, ex temporibus alias molestias in, repudiandae fuga commodi quas nulla expedita. Sed, quos mollitia. Quia!
+    
+                        </p>
+                    </div><!--/.article-->
+    
                 </div>
-                <div class ="col-12">
-                    <h2> Chez suzette, la nouvelle crêperie qui fait parler d'elle</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis nihil inventore, corporis hic deserunt fugiat, ex temporibus alias molestias in, repudiandae fuga commodi quas nulla expedita. Sed, quos mollitia. Quia!
-
-                    </p>
-                </div><!--/.article-->
-
-            </div>
-            <div class="row article">
-                <div class="col-12">
-                    <img src="img/articles/metro/metro-small.jpg"/>
-                </div>
-                <div class ="col-12">
-                    <h2>L E métro dessert</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis nihil inventore, corporis hic deserunt fugiat, ex temporibus alias molestias in, repudiandae fuga commodi quas nulla expedita. Sed, quos mollitia. Quia!
-
-                    </p>
-                </div><!--/.article-->
-
-            </div> <div class="row article">
-                <div class="col-12">
-                    <img src="img/articles/vitaly/vitaly-small.jpg"/>
-                </div>
-                <div class ="col-12">
-                    <h2> Vitaly, le végan italien</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis nihil inventore, corporis hic deserunt fugiat, ex temporibus alias molestias in, repudiandae fuga commodi quas nulla expedita. Sed, quos mollitia. Quia!
-
-                    </p>
-                </div><!--  /.article -->
+                <div class="row article">
+                    <div class="col-12 col-md-4">
+                        <img  class="img-fluid" src="img/articles/metro/metro-small.jpg"/>
+                    </div>
+                    <div class ="col-12  col-md_8">
+                        <h2>L E métro dessert</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis nihil inventore, corporis hic deserunt fugiat, ex temporibus alias molestias in, repudiandae fuga commodi quas nulla expedita. Sed, quos mollitia. Quia!
+    
+                        </p>
+                    </div><!--/.article-->
+    
+                </div> <div class="row article">
+                    <div class="col-12 col-md-4">
+                        <img  class="img-fluid"src="img/articles/vitaly/vitaly-small.jpg"/>
+                    </div>
+                    <div class ="col-12 col-md_8">
+                        <h2> Vitaly, le végan italien</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis nihil inventore, corporis hic deserunt fugiat, ex temporibus alias molestias in, repudiandae fuga commodi quas nulla expedita. Sed, quos mollitia. Quia!
+    
+                        </p>
+                    </div><!--  /.article -->
+    
 
             </div>
+            </div>
+            <div class="col-lg-4 d-none d-lg-block aside">
+                
+             <div class="row social-media">
+                <div class="col-12 search">
+                    <h5>Recherche</h5>
+                    <form class="form-inline">
+                        <div class="form-group">
+                            <label class="sr-olny" for="search">Recherche</label>
+                            <input id="Recherche" type="text" class="form-control" placeholder="Recherche..."/>
+                        
+                           </div>
+                           <button class="btn btn-primary">S'inscrire</button>
+                    </form>
+                </div>
+                <div class="col-12 newsletter-email">
+                    <h5>Newsletter</h5>
+                    <form class="form-inline">
+                        <div class="form-group">
+                            <label class="sr-olny" for="newsletter-email">Email</label>
+                            <input id="newsletter-email" type="email" class="form-control" placeholder="email.."/>
+                        
+                           </div>
+                           <button class="btn btn-primary">S'inscrire</button>
+                    </form>
+                </div>
+                <div class="col-12 share">
+                    <h5>Partager</h5>
+                    <ul>
+                        <li> <a href="#"><i class="fab fa-facebook"></i></a>
+                       </li>
+                       <li> <a href="#"><i class="fab fa-youtube"></i></a>
+                       </li>
+                       <li> <a href="#"><i class="fab fa-instgram"></i></a>
+                       </li>
+                       <li> <a href="#"><i class="fab fa-twitter"></i></a>
+                       </li>
+
+                    </ul>
+                </div>
+            
+
+            </div>
+            
+            </div>
+            </div>
+        
+        <div class="row previous-page">
+            <div class="col-12">
+            <a href="#">&laquo; Voir les articles précédents</a>
+        </div>
         </div>
     </main>
     <footer>
@@ -134,13 +190,25 @@
                  <div class="col-12 share">
                      <h5>Partager</h5>
                      <ul>
-                         <li> <a href="#"><i class="fab fa-facebook"></i></a>
+                         <li> 
+                            <a href="#">
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
                         </li>
-                        <li> <a href="#"><i class="fab fa-youtube"></i></a>
+                        <li> 
+                            <a href="#">
+                                <i class="fab fa-youtube"></i>
+                            </a>
                         </li>
-                        <li> <a href="#"><i class="fab fa-instgram"></i></a>
+                        <li> 
+                            <a href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
                         </li>
-                        <li> <a href="#"><i class="fab fa-twitter"></i></a>
+                        <li> 
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
                         </li>
 
                      </ul>

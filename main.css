@@ -1,0 +1,89 @@
+
+
+
+body{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    
+}
+h1,h2,h3,h4,h5,h6{
+    
+    font-family: 'Courgette', cursive;
+
+}
+.navbar-brand{
+    font-family: 'Courgette', cursive;
+
+}
+nav{
+    position: relative;
+    z-index: 1;
+    border-bottom: 1 px solid rgba(255,255,255, .3);
+}
+
+
+
+header{
+    position: relative;
+    background-image: url(../img/header.jpg);
+    background-position-x: center ;
+    background-position-y: center ;
+    background-repeat: none ;
+    text-align: center;
+    filter: opacity(.5);
+    color: white;
+    margin-bottom: 15px;
+}
+.header-filter {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .5) ;
+    top: 0;
+    z-index: 0;
+}
+.header-content{
+    position: relative;  
+    z-index: 1;
+    padding-bottom: 30px;
+    
+
+}
+
+main h3{
+    font-family: 'Oswald', sans-serif;
+    
+    text-align: center;
+    padding-bottom: 45px;
+    padding-top: 25px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.social-media ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+footer  a{
+    color: white;
+    text-decoration: underline;
+}
+.social-media li{
+    display: flex;
+}
+ .social-media a{
+     padding: 3PX 5px;
+ }
+.social-media a{
+     color:white;
+ }
+ .social-media li{
+     
+     border-radius: 3px;
+ }
+ 
