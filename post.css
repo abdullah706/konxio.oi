@@ -1,0 +1,218 @@
+
+header img {
+  width: 75px;
+}
+
+header h1 {
+  font-size: 50px;
+  margin: 20px 0 10px;
+}
+
+header h1, header h2 {
+  color: #FFFFFF;
+}
+
+.content {
+  margin-top: 50px;
+}
+
+.content a {
+  color: #333333;
+}
+
+.content  h2 {
+  text-align: center;
+  font-family: Oswald, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+
+  margin-bottom: 50px;
+}
+
+.content article {
+  margin-bottom: 10px;
+}
+
+article .picture {
+  position: relative;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+article .summary {
+
+}
+
+body {
+  font-family: Oswald, Helvetica, Arial, sans-serif;
+  font-weight: 200;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label {
+  font-family: Courgette, Georgia, serif;
+}
+
+.navbar {
+  background: rgba(0, 0, 0, 8);
+  z-index: 1;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.navbar-brand {
+  font-family: Courgette, Georgia, serif;
+  font-size: 1em;
+
+}
+
+.nav-open nav {
+  background: rgba(0, 0, 0, 1);
+}
+
+header {
+  background: url(../img/articles/suzette/suzette-header.jpg) center center;
+  height: 500px;
+  margin-top: -73px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+header img {
+  width: 75px;
+}
+header .container-fluid {
+  
+  height: 100%;
+}
+
+header h1,
+header h2 {
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+header .col-12 {
+  padding-top: 130px;
+}
+
+aside h6 {
+  margin-top: 15px;
+}
+
+aside .section .form-group {
+  margin-bottom: 0px;
+}
+
+aside .section button {
+  background: #ffffff;
+  color: #000000;
+  border-color: #000000;
+}
+
+aside .section .btn-primary:hover {
+  background: #000000;
+  color: #ffffff;
+}
+
+.form-control:focus {
+  border-color: #333333;
+  box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.25);
+}
+
+.social-icons ul {
+  padding: 0;
+  margin: 0;
+}
+
+.social-icons li {
+  list-style: none;
+  display: inline-block;
+}
+
+.social-icons i {
+  color: #000;
+  padding: 8px 10px;
+  border-radius: 2px;
+}
+
+.social-icons .fa-youtube {
+  padding: 8px;
+}
+
+.social-icons i:hover {
+  background-color: #000000;
+  color: #ffffff;
+  transition: 0.5s;
+}
+
+aside .social-icons .fa-facebook:hover {
+  background-color: #3b5998;
+}
+aside .social-icons .fa-youtube:hover {
+  background-color: #e64a41;
+}
+aside .social-icons .fa-twitter:hover {
+  background-color: #00aced;
+}
+
+footer {
+  color: #fff;
+  background: #000;
+  margin-top: 50px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+footer .social-icons i {
+  background-color: #fff;
+  color: #000;
+  transition: 0.5s;
+}
+
+footer .section {
+  margin-bottom: 20px;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+footer .social-icons i:hover {
+  background-color: #ffffff;
+  color: #000;
+  transition: 0.5s;
+}
+
+footer .section button {
+  background: #000;
+  color: #fff;
+  border-color: #fff;
+}
+
+footer div div {
+  margin-bottom: 50px;
+}
+
+
+
+
+@media (max-width: 552px) {
+  footer form.form-inline button {
+    margin-top: -15px;
+  }
+}
+img{
+  width: 150px;
+  border-radius: 75px;
+
+  
+}
